@@ -4,7 +4,7 @@
 
 * [Purpose](#Schema-definition)
 * [File Directory](#File-Directory)
-* [Dataset] (#Dataset)
+* [Dataset](#Dataset)
 * [How to run](#How-to-run)
 * [Database Schema](#Database-schema)
 * [Example queries](#Example-queries)
