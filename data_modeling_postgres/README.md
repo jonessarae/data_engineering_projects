@@ -2,6 +2,12 @@
 
 ## Table of Contents
 
+* [Purpose](#Schema-definition)
+* [How to run](#How-to-run)
+* [Database Schema](#Database-schema)
+* [File Directory](#File-Directory)
+* [Example queries](#Example-queries)
+
 ## Purpose
 
 Create a Postgres database with tables designed to optimize queries on song play analysis and build an ETL pipeline using Python for startup Sparkify.
@@ -9,6 +15,8 @@ Create a Postgres database with tables designed to optimize queries on song play
 ## How to Run
 
 ## Database Schema
+
+![schema](.postgres.png)
 
 ## File Directory
 
