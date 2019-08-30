@@ -16,7 +16,7 @@ Create a Postgres database with tables designed to optimize queries on song play
 
 ## Database Schema
 
-![schema](.postgres.png)
+![schema](postgres.png)
 
 ## File Directory
 
