@@ -43,6 +43,12 @@ The key symbol in each table represents the primary key.
 
 ## File Directory
 
+* create_tables.py
+* etl.py
+* sql_queries.py
+* etl.ipynb
+* test.ipynb
+
 ## Example Queries
 
 Query to determine the hours users are most active. 
