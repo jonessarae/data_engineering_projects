@@ -26,7 +26,13 @@ The key symbol in each table represents the primary key.
 
 ## Example Queries
 
+Query to determine the hours users are most active. 
 
 ```
-%sql SELECT count(start_time), DATE_PART('hour', start_time) FROM songplays GROUP BY DATE_PART('hour', start_time) ORDER BY count DESC;
+SELECT count(start_time), DATE_PART('hour', start_time) FROM songplays GROUP BY DATE_PART('hour', start_time) ORDER BY count DESC;
+```
+
+Query to determine how many songs played fall under "free" or "paid". 
+```
+SELECT level, count(level) FROM songplays GROUP BY level ORDER BY count DESC;
 ```
