@@ -27,3 +27,4 @@ The key symbol in each table represents the primary key.
 ## Example Queries
 
 
+```%sql SELECT count(start_time), DATE_PART('hour', start_time) FROM songplays GROUP BY DATE_PART('hour', start_time) ORDER BY count DESC;```
