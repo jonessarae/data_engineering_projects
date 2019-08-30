@@ -16,6 +16,10 @@ Create a Postgres database with tables designed to optimize queries on song play
 
 ## Database Schema
 
+Diagram of a star schema used for designing the Postgres database. 
+
+The key symbol in each table represents the primary key.
+
 ![schema](postgres.png)
 
 ## File Directory
