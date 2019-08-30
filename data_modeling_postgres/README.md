@@ -14,6 +14,25 @@ Create a Postgres database with tables designed to optimize queries on song play
 
 ## How to Run
 
+Before running this project, the following software and packages (with the versions used) must be installed:
+
+* PostgreSQL 9.5.19
+* Python 3.6.3
+* pandas 0.23.3
+* psycopg2 2.7.4
+
+Run the following commands in the terminal:
+
+1. Create tables for Postgres database.
+```
+python create_tables.py
+```
+
+2. Execute ETL pipeline to process and insert JSON data to tables.
+```
+python etl.py
+```
+
 ## Database Schema
 
 Diagram of a star schema used for designing the Postgres database. 
