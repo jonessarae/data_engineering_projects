@@ -12,3 +12,8 @@ Create an Apache Cassandra database which can create queries on song play data f
     * implementing three different queries 
 * event_datafile_new.csv - dataset
 
+## Software
+
+* cassandra-driver==3.11.0
+* pandas==0.23.3
+* Python 3.6.3
