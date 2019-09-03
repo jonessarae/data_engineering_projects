@@ -58,7 +58,7 @@ def process_log_file(cur, filepath):
         
         # get songid and artistid from song and artist tables
         # need to add double single quotes to escape apostrophes in song titles or artists' names
-        cur.execute(song_select, (row.song.replace("'","''"), row.artist.replace("'","''"), row.length))
+        cur.execute(song_select, (row.song, row.artist, row.length))
         results = cur.fetchone()
         
         if results:
