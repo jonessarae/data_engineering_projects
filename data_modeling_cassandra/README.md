@@ -11,7 +11,7 @@ Create an Apache Cassandra database which can create queries on song play data f
     * designing Apache Cassandra database
     * implementing three different queries 
 * Project_1B_Project.html - html version of jupyter notebook
-    * To view: http://htmlpreview.github.io/?https://github.com/jonessarae/data_engineering_projects/blob/master/data_modeling_cassandra/Project_1B_Project.html
+    * To view: http://htmlpreview.github.io/?https://github.com/jonessarae/data_engineering_projects/blob/master/data_modeling_cassandra/Project_1B.html
 * event_datafile_new.csv - dataset
 
 ## Software
