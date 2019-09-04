@@ -10,4 +10,4 @@ Completed 9/3/2019.
 
 All files are in *data_modeling_cassandra* folder.
 
-Completed 9/3/2019.
+Completed 9/4/2019.
